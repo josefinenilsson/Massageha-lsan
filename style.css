@@ -1,0 +1,1050 @@
+body{
+    margin: 0 auto;
+    font-family:'Open Sans', sans-serif;
+    min-width: 320px;
+}
+
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+}
+    .logotype{
+        height:auto;
+        width:300px;
+        padding: 20px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+nav{
+    background:#003399;
+    width: 100%;
+    
+}
+    nav ul{
+        text-align: center;
+        margin-bottom: 0;
+    }
+        nav ul li{
+            color:#fff;
+            display: inline-block;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            font-size: 12px;
+            text-transform: uppercase;
+            
+        }
+            nav ul li a{
+                color: #fff;
+                text-decoration: none;
+            }
+.main-menu li.current-menu-item{
+    background: #022875;
+}
+.top_image{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.top_info{
+    padding-bottom: 30px;
+}
+    .top_info h3{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .top_info h4{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .top_info p{
+        text-align: center;
+    }
+.wrapper{
+    margin: auto;
+    max-width:750px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.wrapper_special_start{
+    margin: auto;
+    max-width: 993px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.around_wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.around_wrapper:nth-child(2n){
+    background:#f7f7f7;
+}
+.wrapper_about{
+    margin: auto;
+    max-width:750px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.wrapper_about img{
+    float: right;
+    margin-left: 20px;
+}
+
+.picture_relax{
+    margin-top: 40px;
+    width: 49%;
+    padding-right: 1%;
+}
+
+
+.index_grey{
+    background:#f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .index_grey h3{
+        text-align: center;
+    }
+    .index_grey p{
+       
+    }
+.index_grey_p{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.index_grey_2{
+    background:#f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;'
+}
+.index_grey_2 h3{
+    margin-bottom: 0;
+}
+.quick_box{
+    width: 245px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+    .quick_box img{
+        width: 200px;
+        height: auto;
+    }
+    .quick_box h4{
+    }
+    .quick_box p{
+        
+    }
+.images_footer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    float: none;
+}
+.images_footer_img{
+    width: 245px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+    .images_footer_img img{
+        width:180px;
+        height: auto;
+    }
+    
+
+footer{
+    background:#003399;
+    color: #fff;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 18px;
+}
+footer h5{
+    margin-bottom: 5px;
+}
+footer p{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    footer .contact_footer_left{
+        width:300px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    footer .contact_footer_right{
+        width:300px;
+        margin: 0 auto;
+        display: inline-block;
+        float: right;
+    }
+
+/* Kontakta oss sidan */
+.contact_info{
+    width: 40%;
+    float: left;
+    margin-bottom: 60px;
+}
+    .contact_us{
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+        .contact_us h3{
+            margin: 0;
+        }
+        .contact_us p{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    .find_us{
+    }
+        .find_us h3{
+            margin-bottom: 10px;
+        }
+        .find_us h4{
+            margin-bottom: 0px;
+            margin-top: 20px;
+        }
+        .find_us p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .find_us p a{
+            text-decoration: none;
+        }
+.contact_form{
+    width: 40%;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 60px;
+}
+    .contact_form div{
+        padding-bottom: 20px;
+    }
+    .contact_form p{
+        margin: 0;
+        font-weight: 800;
+        padding-bottom: 5px;
+    }
+    .contact_form input{
+        border-radius: 5px;
+        border: 1px solid #ECEAEA;
+        width: 100%;
+        height: 30px;
+        line-height: 20px;
+        font-size: 17px;
+    }
+    .contact_form .input_message{
+        height: 200px;
+        width: 100%;
+        border: 1px solid #ECEAEA;
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .contact_form .button_send{
+        background:#003399;
+        color: #fff;
+    }
+    .hp-wrap{
+        display: none;
+    }
+
+    .contact_map{
+        width: 100%;
+    }
+        .contact_map img{
+            width: 100%;
+            height: auto;
+        }
+        
+            
+
+/* Behandlingar */
+.treatment_box{
+    text-decoration: none;
+    color: #000;
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+.treatment_box:nth-of-type(2n-1){
+    clear: left;
+}
+.treatment_category{
+    text-align: center;
+}
+
+.treatment_category img{
+    width: 100%;
+    height: auto;
+}
+.treatment_category h2{
+    margin: 0;
+}
+.treatment_category p{
+    margin-top: 5px;
+}
+
+/* Massagebehandlingar */
+.massage_box{
+    text-decoration: none;
+    color: #000;
+}
+
+.massage_therapy{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    text-align: center;
+}
+.massage_therapy img{
+    width: 100%;
+    height: auto;
+}
+.massage_therapy h2{
+    margin: 0;
+}
+.massage_therapy p{
+    margin-top: 5px;
+}
+
+/* Klassisk massage */
+.classic_massage_text{
+    width: 50%;
+    float: left;
+}
+.classic_massage_text:nth-child(2n+1){
+    clear: left;
+}
+.classic_massage_text img{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+    padding-left: 20px;
+}
+
+
+.classic_massage_text_full{
+    width: 100%;
+    float: left;
+}
+.classic_massage_text_full h2{
+}
+.classic_massage_text_full li{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.classic_massage_text_full img{
+    margin-top: 40px;
+    padding-right: 5px;
+}
+
+.classic_massage_full{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    padding-right: 5px;
+}
+.classic_massage_full img{
+    margin-top: 40px;
+    width: 49%;
+    padding-right: 1%;
+    
+}
+
+.price_box{
+    width: 45%;
+    float: left;
+}
+
+.price_box:nth-child(2n-1) {
+    margin-right: 10%;
+}
+.price_box h3{
+    
+}
+.price_list{
+   
+    
+}
+table{
+    width: 100%;
+}
+.index_grey_2 .price_box{
+    width: 100%;
+    float: left;
+}
+.price_box_full{
+    width: 75%;
+    
+}
+.price_list > td:last-child {
+    text-align: right;
+}
+
+
+.about_text{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+/* Responsiv sida*/
+
+/*Minsta mobilbredd*/
+
+@media (max-width:440px){
+    .wrapper{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 23px;
+        font-size: 0.8em;
+    }
+    .wrapper h3{
+        padding-left: 5%;
+    }
+    .wrapper_about{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 23px;
+        font-size: 0.8em;
+    }
+    .wrapper_about img{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 23px;
+        margin-bottom: 10px;
+        height: auto;   
+    }
+    
+    nav ul{
+        text-align: left;
+        margin-bottom: 0;
+        padding-left: 4%;
+    }
+    
+    nav ul li{
+        color:#fff;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 3%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 7px;
+            
+    }
+    .treatment_box {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    width: 90%;
+    margin: 5%;
+}
+    
+/* Startsida */
+    
+    .top_info{
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    .top_info p{
+        font-size: 14px;
+    }
+    
+    .index_grey{
+        background:#f7f7f7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .index_grey_p{
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            font-size: 14px;
+        }
+    .quick_box{
+        width: 300px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+    .quick_box p{
+        font-size: 14px;
+    }
+    .images_footer{
+        padding-top: 0px;
+    }
+    .images_footer_img{
+        width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 100px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    footer{
+    }
+    footer .contact_footer_left{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-left: 100px;
+    }
+    footer .contact_footer_right{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        padding-top: 30px;
+        padding-left: 100px;
+        
+    }
+    .contact_info{
+        width: 100%;
+        float: none;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+}
+    .contact_form {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 10%;
+        padding-left: 0px;
+        margin-right: 3%;
+        }
+    .contact_form input{
+        border-radius: 5px;
+        border: 1px solid #ECEAEA;
+        width: 100%;
+        height: 30px;
+        line-height: 20px;
+        font-size: 17px;
+    }
+    .contact_form .input_message{
+        height: 150px;
+        width: 100%;
+        border: 1px solid #ECEAEA;
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .treatment_category{
+    width: 100%;
+    float: none;
+    margin: 5% 0;
+    text-align: center;
+}
+    .treatment_category p{
+        padding-right: 2%;
+    }
+.price_box{
+    width: 100%;
+    float: left;
+} 
+.classic_massage_text{
+    width: 100%;
+    float: none;
+    padding-left: 5%;
+}
+
+.classic_massage_text img{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
+    .about_text {
+    width: 100%;
+    float: none;
+    padding-left: 5%;
+}
+
+}
+
+/* Näst minsta */
+@media (min-width: 400px) and (max-width:535px){
+  .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+        font-size: 0.8em;
+    }
+    .wrapper h3{
+        padding-left: 5%;
+    }
+    .wrapper_about{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+        font-size: 0.8em;
+    }
+    .wrapper_about img{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+        margin-bottom: 10px;
+        float: none;
+        height: auto;
+        
+    }
+    nav ul{
+        text-align: left;
+        margin-bottom: 0;
+        padding-left: 10%;
+    }
+    nav ul li{
+        color:#fff;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 7px;
+            
+    }
+     .top_info{
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    .top_info p{
+        font-size: 14px;
+    }
+    .treatment_box {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    width: 90%;
+    margin: 5%;
+}
+    .index_grey{
+        background:#f7f7f7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .index_grey_p{
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            font-size: 14px;
+        }
+    .quick_box{
+        width: 95%;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+    .quick_box p{
+        font-size: 14px;
+    }
+    .images_footer{
+        padding-top: 0px;
+    }
+    .images_footer_img{
+        width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 100px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    footer{
+    }
+    footer .contact_footer_left{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-left: 100px;
+    }
+    footer .contact_footer_right{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        padding-top: 30px;
+        padding-left: 100px;
+        
+    }
+    .contact_info{
+        width: 100%;
+        float: none;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+}
+    .contact_form {
+        width: 100%;
+        float: none;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        padding-left: 0px;
+        margin-right: 3%;
+        }
+    .contact_form input{
+        border-radius: 5px;
+        border: 1px solid #ECEAEA;
+        width: 80%;
+        height: 30px;
+        line-height: 20px;
+        font-size: 17px;
+    }
+    .contact_form .input_message{
+        height: 150px;
+        width: 80%;
+        border: 1px solid #ECEAEA;
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .price_box{
+    width: 100%;
+    float: left;
+    padding-left: 5%;
+}
+    .price_box_full{
+        padding-left: 5%;
+    }
+    .classic_massage_text{
+    width: 100%;
+    float: none;
+    padding-left: 5%;
+}
+
+.classic_massage_text img{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
+    .about_text {
+    width: 100%;
+    float: none;
+    padding-left: 5%;
+}
+
+}
+
+
+/* Mellan bredd */
+
+@media (min-width: 536px) and (max-width:678px){
+    .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+        font-size: 0.9em;
+    }
+    .wrapper_about{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+        font-size: 0.9em;
+    }
+    nav ul li{
+        color:#fff;
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 9px;
+            
+    }
+    .index_grey{
+        background:#f7f7f7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .index_grey_p{
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .quick_box{
+        width: 500px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-left: 25%;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+    .quick_box img{
+        width: 300px;
+    }
+    .quick_box h4{
+        padding-left:0;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .quick_box p{
+        padding-left: 0;
+        margin-top: 5px;
+    }
+    .images_footer{
+        padding-bottom: 30px;
+        padding-top: 30px;
+}
+        .images_footer_img{
+            width: 160px;
+            display: inline-block;
+            margin: 0 auto;
+            padding-left: 28px;
+            padding-right: 28px;
+        }
+                .images_footer_img img{
+                    width:130px;
+                    height: auto;
+                }
+    footer{
+    }
+    footer .contact_footer_left{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-left: 100px;
+    }
+    footer .contact_footer_right{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        padding-top: 30px;
+        padding-left: 100px;  
+    }
+     .contact_info{
+        width: 35%;
+        float: left;
+        margin-bottom: 10%;
+        margin-left: 3%;
+}
+    .contact_form {
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        padding-left: 0px;
+    }
+    .contact_form input{
+        border-radius: 5px;
+        border: 1px solid #ECEAEA;
+        width: 250px;
+        height: 30px;
+        line-height: 20px;
+        font-size: 17px;
+    }
+    .contact_form .input_message{
+        height: 150px;
+        width: 250px;
+        border: 1px solid #ECEAEA;
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+        .price_box{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+} 
+    .price_box_full{
+        padding-left: 5%;
+    }
+    .classic_massage_text{
+        padding-left: 5%;
+        
+}
+
+.classic_massage_text img{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
+    
+
+
+}
+
+/* Mellan stor */
+
+@media (min-width: 679px) and (max-width:993px){
+        .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 23px;
+    }
+    nav ul li{
+        color:#fff;
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 9px;
+            
+    }
+    .index_grey{
+        background:#f7f7f7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .index_grey_p{
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .quick_box{
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+    .quick_box img{
+        width: 100%;
+    }
+    .quick_box h4{
+        padding-left:0;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .quick_box p{
+        padding-left: 0;
+        margin-top: 5px;
+    }
+    .images_footer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+        .images_footer_img{
+            width: 215px;
+            display: inline-block;
+            margin: 0 auto;
+            padding-left: 28px;
+            padding-right: 28px;
+        }
+            .images_footer_img img{
+                width:180px;
+                height: auto;
+            }
+    footer{
+    }
+    footer .contact_footer_left{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-left: 100px;
+    }
+    footer .contact_footer_right{
+        width:200px;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        padding-top: 30px;
+        padding-left: 100px;  
+    }
+    .contact_info{
+        width: 35%;
+        float: left;
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+    .contact_form {
+        width: 40%;
+        float: left;
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+    .contact_form input{
+        border-radius: 5px;
+        border: 1px solid #ECEAEA;
+        width: 250px;
+        height: 30px;
+        line-height: 20px;
+        font-size: 17px;
+    }
+    .contact_form .input_message{
+        height: 150px;
+        width: 250px;
+        border: 1px solid #ECEAEA;
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .price_box{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+}
+    .price_box_full{
+        padding-left: 5%;
+    }
+        .classic_massage_text{
+        padding-left: 5%;
+        
+}
+
+.classic_massage_text img{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
+
+}
+@media (min-width: 679px) and (max-width:993px){
+.wrapper_special_start{
+    margin: auto;
+    max-width: 993px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+    
+}
+
+    
+
